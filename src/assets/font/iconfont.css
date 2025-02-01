@@ -1,0 +1,103 @@
+@font-face {
+  font-family: "iconfont"; /* Project id 4819541 */
+  src: url('iconfont.woff2?t=1738329691010') format('woff2'),
+       url('iconfont.woff?t=1738329691010') format('woff'),
+       url('iconfont.ttf?t=1738329691010') format('truetype');
+}
+
+.iconfont {
+  font-family: "iconfont" !important;
+  font-size: 20px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-caidan:before {
+  content: "\e601";
+}
+
+.icon-home:before {
+  content: "\e64d";
+}
+
+.icon-more:before {
+  content: "\e6ad";
+}
+
+.icon-information:before {
+  content: "\e62d";
+}
+
+.icon-forum:before {
+  content: "\e687";
+}
+
+.icon-message:before {
+  content: "\e78a";
+}
+
+.icon-setting:before {
+  content: "\e78e";
+}
+
+.icon-like:before {
+  content: "\e7c8";
+}
+
+.icon-video-fill:before {
+  content: "\e865";
+}
+
+.icon-screen:before {
+  content: "\e72e";
+}
+
+.icon-list:before {
+  content: "\e61d";
+}
+
+.icon-audio-fill:before {
+  content: "\e897";
+}
+
+.icon-audiostatic:before {
+  content: "\e8e8";
+}
+
+.icon-share:before {
+  content: "\e729";
+}
+
+.icon-add:before {
+  content: "\e6f1";
+}
+
+.icon-users:before {
+  content: "\e92e";
+}
+
+.icon-video:before {
+  content: "\e65e";
+}
+
+.icon-comments:before {
+  content: "\e614";
+}
+
+.icon-record_on:before {
+  content: "\e642";
+}
+
+.icon-aifuzhushenpian:before {
+  content: "\e60a";
+}
+
+.icon-Ai:before {
+  content: "\e605";
+}
+
+.icon-adduser:before {
+  content: "\e7b6";
+}
+
