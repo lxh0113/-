@@ -1,7 +1,7 @@
 <template>
   <div class="forumBox">
     <div class="top">
-      <el-button :icon="Plus" type="success">发布新帖</el-button>
+      <el-button :icon="Plus" type="success" @click="$router.push('/forum/publish')">发布新帖</el-button>
       <el-button :icon="Refresh" type="primary">换一换</el-button>
     </div>
     

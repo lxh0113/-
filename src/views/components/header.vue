@@ -51,7 +51,7 @@
     </div>
     <div class="informationContent">
       <el-dropdown>
-        <span style="display: flex;align-items: center;">
+        <span style="display: flex;align-items: center;outline: none;">
           <el-avatar> user </el-avatar>
           <el-icon size="20" style="color: #79869f; margin-left: 15px"
             ><ArrowDown
@@ -87,9 +87,13 @@ const searchText = ref("");
   width: 100%;
   height: 100px;
   border-bottom: 1px solid $primary-border-color;
+  border-left: 1px solid $primary-border-color;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  position: fixed;
+  background-color: white;
+  box-sizing: border-box;
 
   .welcomeText {
     margin-left: 60px;
@@ -194,9 +198,11 @@ const searchText = ref("");
   }
 
   .informationContent {
+    width: 400px;
     margin-right: 60px;
     display: flex;
     align-items: center;
+    // background-color: red;
   }
 }
 </style>

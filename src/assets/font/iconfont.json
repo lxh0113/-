@@ -6,6 +6,13 @@
   "description": "",
   "glyphs": [
     {
+      "icon_id": "15838540",
+      "name": "time",
+      "font_class": "time",
+      "unicode": "e680",
+      "unicode_decimal": 59008
+    },
+    {
       "icon_id": "7515233",
       "name": "menu",
       "font_class": "caidan",

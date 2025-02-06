@@ -1,16 +1,20 @@
 @font-face {
   font-family: "iconfont"; /* Project id 4819541 */
-  src: url('iconfont.woff2?t=1738329691010') format('woff2'),
-       url('iconfont.woff?t=1738329691010') format('woff'),
-       url('iconfont.ttf?t=1738329691010') format('truetype');
+  src: url('iconfont.woff2?t=1738810273839') format('woff2'),
+       url('iconfont.woff?t=1738810273839') format('woff'),
+       url('iconfont.ttf?t=1738810273839') format('truetype');
 }
 
 .iconfont {
   font-family: "iconfont" !important;
-  font-size: 20px;
+  font-size: 16px;
   font-style: normal;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-time:before {
+  content: "\e680";
 }
 
 .icon-caidan:before {

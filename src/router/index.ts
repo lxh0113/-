@@ -14,7 +14,7 @@ const router = createRouter({
     {
       path: "/",
       component: () => import("../views/home/index.vue"),
-      redirect:"/home",
+      redirect: "/home",
       children: [
         {
           path: "home",
@@ -22,7 +22,27 @@ const router = createRouter({
         },
         {
           path: "forum",
-          component: () => import("../views/forum/index.vue"),
+          children: [
+            {
+              path: "",
+              component: () => import("../views/forum/index.vue"),
+            },
+            {
+              path: "publish",
+              component: () =>
+                import("../views/forum/components/publishForum.vue"),
+            },
+            {
+              path: "publish/:id",
+              component: () =>
+                import("../views/forum/components/publishForum.vue"),
+            },
+            {
+              path: ":id",
+              component: () =>
+                import("../views/forum/components/viewForum.vue"),
+            },
+          ],
         },
         {
           path: "ai",

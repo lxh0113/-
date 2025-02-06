@@ -19,8 +19,8 @@ import Nav from "../components/nav.vue";
 
 <style lang="scss" scoped>
 .homeBox {
-  min-width: 100vw;
-  min-height: 100vh;
+  width: 100%;
+  height: 100%;
   display: flex;
   justify-content: space-between;
 
@@ -29,6 +29,7 @@ import Nav from "../components/nav.vue";
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    // background-color: red;
 
     div:nth-child(2) {
       flex: 1;
